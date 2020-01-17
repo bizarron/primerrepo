@@ -1,0 +1,39 @@
+Proceso calculadora
+	Escribir "Introduzca el primer numero";
+	definir a como entero;
+	definir b como entero;
+	definir c como entero;
+	Leer a;
+	Escribir "introduzca el primer numero";
+	Leer b;
+	Escribir "¿que operacion desea realizar?:";
+	Escribir "1. suma";
+	Escribir "2. resta";
+	Escribir "3. multiplicacion";
+	Escribir "4. division";
+	Escribir "5. potencia";
+	leer c;
+	
+	Segun c Hacer
+		1: 
+			Escribir "el resultado es:";
+			Escribir a+b;
+		2: 
+			Escribir "El resultado es ";
+			Escribir a-b;
+		3: 
+			Escribir "El resultado es ";
+			Escribir a*b;
+		4: 
+			Escribir "El resultado es ";
+			Escribir a/b;
+		5: 
+			Escribir "la potencia del primer numero es";
+			Escribir a^a;
+			Escribir "la potencia del primer numero es";
+			Escribir b^b;
+		De Otro Modo:
+			Escribir "Accion no valida";
+	FinSegun
+	
+FinProceso
